@@ -1,0 +1,128 @@
+:root{
+    --label-height:25px;
+    --color-background: hsl(120, 50%, 40%);
+    --color-form-background: white;
+    /* @import url('https://fonts.googleapis.com/css?family=Open+Sans'); */
+}
+body{
+    background-color: var(--color-background);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+p{
+    text-align: center;
+    margin-bottom : 50px;
+}
+label{
+    width: 40%;
+    float:left;
+    text-align: right;
+    margin-right: 20px;
+    font-weight: 600;
+}
+h2{
+
+    text-align: center;
+    color: hsl(120, 5%, 16%);
+    font-size: 35px;
+}
+div{
+     margin-top: 40px; 
+}
+fieldset{
+    border: 0ch;
+}
+#main-div{
+    border-radius: 1%;
+    width: 800px;
+    margin:auto; 
+    background-color: var(--color-form-background);
+    /* padding:  80px; */
+    padding: 50px 30px 50px 30px;
+}
+button{
+    border-radius: 10px;
+    width: 20%;
+    height: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color:hsl(120, 50%, 40%);
+    color: white;
+    font-size: 18px;
+}
+.lineEdit{
+    margin-top: 10px;  
+}
+#comments{
+    width: 40%;
+     height: 150px;
+}
+
+@media (max-width: 450px) {
+    body{
+        width: 90%;
+    }
+    #main-div{
+        width: 80%;
+        padding: 50px 10px 50px 10px;
+    }
+    label{
+        margin-bottom: 10px;
+        text-align: center;
+        /* float: none; */
+        width: 100%;
+    }
+    #name{
+        width: 95%;
+    }
+    #email{
+        width: 95%;
+    }
+    #number{
+        width: 95%;
+    }    
+    #dropdown{
+        width: 100%;
+    }
+    #dropdown1{
+        width: 100%;
+    }
+    button{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #comments{
+        margin: 10% 10%  0% 10%;
+        width: 80%;
+    }
+}
+ @media (max-width: 900px) {
+    body{
+        width: 95%;
+    }
+    #main-div{
+        width: 80%;
+        padding: 50px 10px 50px 10px;
+    }
+    label{
+    }
+    .lineEdit input{
+        width: 50%;
+    }    
+    group1 input{
+         width: 20%;
+    }
+}
+
+form{
+    /* margin:auto; */
+}
+/* #submit{
+    align-items:center;
+} */
+button:hover {
+    background-color: hsl(120, 50%, 70%)
+}
+
+

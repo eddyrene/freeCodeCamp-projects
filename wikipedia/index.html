@@ -1,0 +1,50 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search in Wikipedia!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+</head>
+<body>
+    <div  class = "box1">
+        <div class="row"> 
+        <div class ="col-xs-1 "></div> <!--resize-->
+         <div class="col-xs-10 ">
+            <p id="title"> Search in Wikipedia </p> 
+            <p id="subtitle"> Find what you are looking for  </p> 
+             <div class="container-fluid"> 
+                <div class ="col-xs-12 col-sm-0 col-md-1"></div> <!--resize-->
+                <div class=" editrow col-xs-12 col-sm-8 col-md-8">
+                    <input id="textInput" type="text"  placeholder="Search in Wikipedia"> 
+                </div>
+                <div class="col-xs-12 col-sm-2 col-md-1">
+                    <button  id="searchButton" class="btn btn-default btn-lg"  title="Search">
+                        <span class="glyphicon glyphicon-search"></span>  
+                    </button>
+                    <!-- <button Search</button> -->
+                </div>
+                <div class="col-xs-12 col-sm-2 col-md-1">
+                    <button  id="randomButton" class="btn btn-default btn-lg" title="Ramdom Search">
+                        <span class="glyphicon glyphicon-random"></span>  
+                    </button>
+                    <!-- <button id="randomButton">Random Search</button> -->
+                </div>
+                <div class = "col-xs-12 col-sm-0col-md-1"> </div>
+            </div>
+            <div id="results"> </div>  
+         </div>
+         <div class = "col-xs-1"> </div>
+        </div>
+        
+        <div col-xs-12 col-sm-12 id="owner">
+          <a target="_blank" href="https://codepen.io/eddyrene/#">By eddyrene</a>    
+        </div>
+      </div>  
+      
+</body>

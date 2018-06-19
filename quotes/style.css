@@ -1,0 +1,57 @@
+:root {
+    --main-bg-color: coral;
+}
+body{ 
+  background-color: var(--main-bg-color);
+}
+.box1{
+  margin-top:100px;
+  background-color: var(--main-bg-color);
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.box2{
+  background-color: white;
+  border-radius: 10px;
+}
+#title{
+  color: green;
+  font-family: 'PT Sans', sans-serif;
+}
+#quote {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-style:500;
+  color: coral;
+  margin-top:50px;
+}
+#author{
+  font-size: 25px;
+  color: grey;
+  font-style:italic;
+}
+
+#contSocialQuote{
+  
+}
+#contBtnQuote{
+  text-align:right;
+}
+#btnQuote{
+  font-size: 20px;
+  font-weight:600;
+}
+#owner{
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align:center;
+}
+#owner a{
+  color: white;
+  font-size: 15px;
+}
+.row{
+  margin-left:0px;
+  margin-right:0px;
+}
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1 id="title"> Survey Form</h1>
+    <div id="main-div"> 
+    <p  id="description">
+        This is a formulary for know what things you think that freeCodeCamp needs improve.    
+    </p>
+    <form id="survey-form" action="/action_page">
+
+
+        <div class="lineEdit">
+            <label id="name-label" for="name">* Name:</label>
+            <input type="text" id="name" placeholder="Name.." required>
+        </div>
+
+        <div class="lineEdit">
+            <label id="email-label" for="email">* Email:</label>
+            <input type="email"id="email" placeholder="Email.." required>
+        </div>
+        
+        <div class="lineEdit">
+            <label id="number-label" for="number">Age:</label>
+            <input type="number" id="number" placeholder="Age.."  min="1" max="120">
+        </div>
+        
+        <div>
+            <label for="dropdown">Which option best describes your current role?:</label>
+            <select id="dropdown" name="dropdown">
+            <option value="australia">Student</option>
+            <option value="canada">Full time Job</option>
+            <option value="usa">Full time learner</option>
+            <option value="usa">Teacher</option>
+            <option value="usa">Other</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="dropdown">How likely is that you would recommend freeCodeCamp to a friend?:</label>    
+            <fieldset id="group1">
+                    <input type="radio" value="definitely" name="group1"> Definitely<br>
+                    <input type="radio" value="maybe" name="group1"> Maybe<br>
+                    <input type="radio" value="not_sure" name="group1"> Not sure<br>
+            </fieldset>   
+        </div>
+        <div>
+            <label for="dropdown1"> What do you like most in FCC: </label> 
+            <select id="dropdown1" name="dropdown1">
+                    <option value="Challenges">Challenges</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Community">Community</option>
+                    <option value="OpenSource">Open Source</option>
+            </select>
+        </div>
+        <div>
+            <label>Things that should be improved in the future (Check all that apply):</label>
+            <fieldset id="group2">
+                <input type="checkbox" name="group2" value="front_end_projects"> Front-end Projects<br>
+                <input type="checkbox" name="group2" value="back_end_projects" > Back-end Projects<br>
+                <input type="checkbox" name="group2" value="data_visualization"> Data Visualization<br>
+                <input type="checkbox" name="group2" value="challenges" > Challenges<br>
+                <input type="checkbox" name="group2" value="open_source_community" > Open Source Community<br>
+                <input type="checkbox" name="group2" value="gitter_help_rooms" > Gitter help rooms<br>
+                <input type="checkbox" name="group2" value="videos" > Videos<br>
+                <input type="checkbox" name="group2" value="city_meetups" > city Meetups<br>
+                <input type="checkbox" name="group2" value="wiki" > Wiki<br>
+                <input type="checkbox" name="group2" value="forum" > Forum<br>
+                <input type="checkbox" name="group2" value="addtional_courses" > Additional Courses<br>
+            </fieldset>   
+        </div>
+        <div>
+            <label for="comments">Any Comments or Suggestions?:</label>
+            <textarea id="comments" placeholder=" Write some comments here ... ">
+            </textarea>
+        </div>
+        <div>
+        <button id="submit" type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
